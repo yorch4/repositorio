@@ -16,6 +16,18 @@ public class array {
 	
 	private static void nuevometodo1() {
 		System.out.println("Nuevo metodo");
+	private static void imprimirarray(int array[]) {
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+	}
+	
+	private static void sumaarray(int array[]) {
+		int suma = 0;
+		for (int i = 0; i < array.length; i++) {
+			suma = suma + array[i];
+		}
+		System.out.println(suma);
 	}
 
 }
