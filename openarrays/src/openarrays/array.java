@@ -15,7 +15,7 @@ public class array {
 	}
 	
 	private static void nuevometodo2() {
-		System.out.println("Metodo 2");
+		System.out.println("Cambio en el metodo 2");
 	}
 
 }
