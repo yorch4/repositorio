@@ -12,5 +12,11 @@ public class array {
 			array[i] = (int) (Math.round(Math.random() * 19) + 1);
 		}
 	}
+	
+	private static void imprimirarray(int array[]) {
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+	}
 
 }
