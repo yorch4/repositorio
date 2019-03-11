@@ -3,9 +3,13 @@ package openarrays;
 public class array {
 
 	public static void main(String[] args) {
-		int[] array = new int[10];
+		int[] array = new int[8];
 		rellenaarray(array);
+
 		nuevometodo1();
+
+		nuevometodo2();
+
 	}
 
 	private static void rellenaarray(int array[]) {
@@ -14,8 +18,15 @@ public class array {
 		}
 	}
 	
+
 	private static void nuevometodo1() {
 		System.out.println("Nuevo metodo");
+
+
+	private static void nuevometodo2() {
+		System.out.println("Cambio en el metodo 2");
+
+
 	private static void imprimirarray(int array[]) {
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i]);
@@ -28,6 +39,7 @@ public class array {
 			suma = suma + array[i];
 		}
 		System.out.println(suma);
+
 	}
 
 }
